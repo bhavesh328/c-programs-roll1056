@@ -1,0 +1,18 @@
+include <stdio.h>
+
+int main() {
+    int N, i;
+
+    // Ask user for input
+    printf("Enter a positive integer N: ");
+    scanf("%d", &N);
+
+    // Print first N natural numbers
+    printf("The first %d natural numbers are:\n", N);
+    for(i = 1; i <= N; i++) {
+        printf("%d ", i);
+    }
+
+    printf("\n");
+    return 0;
+}
